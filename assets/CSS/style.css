@@ -19,17 +19,21 @@ body{
     border-bottom: 5px solid #1B98E0;
 }
 
+.cabecalho img{
+    margin: 25px;
+}
+
 .cabecalho h1{
     display: inline-block;
     margin: 20px;
-    margin-left: 10%;
     position: absolute
 }
 
 .lista{
     display: inline-block;
     margin: 20px;
-    margin-left: 70%;
+    margin-left: 60%;
+    position: absolute;
 }
 
 .lista li{
