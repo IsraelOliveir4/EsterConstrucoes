@@ -22,9 +22,53 @@ header {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Centraliza o conteúdo e mantém a lista à direita */
+}
+
+.logo-container {
+    margin-right: 10px; /* Espaçamento à direita do título */
+}
+
+/* Estilos para a logo */
+.logo {
+    width: 120px; /* Ajuste conforme necessário */
+    height: auto; /* Para manter a proporção */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os itens da lista horizontalmente */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove a margem direita do último item da lista */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #cce5ff;
+}
+
 header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
+    display: inline-block;
 }
 
 header nav ul {
@@ -101,7 +145,7 @@ form textarea {
     height: 150px;
 }
 
-form button {
+button {
     background-color: #F69E19; /* Alterado para laranja */
     border: none;
     color: #fff;
@@ -110,9 +154,10 @@ form button {
     border-radius: 5px;
     font-size: 1rem;
     transition: background-color 0.3s ease;
+    margin: 10px;
 }
 
-form button:hover {
+button:hover {
     background-color: #D88E15; /* Alterado para laranja mais escuro */
 }
 
