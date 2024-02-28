@@ -202,3 +202,25 @@ footer {
         max-width: 400px; /* Ajusta a largura do formulário */
     }
 }
+
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 80px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        display: none;
+    }
+
+    .section {
+        padding: 30px 10px; /* Reduz ainda mais o espaçamento nas seções */
+    }
+
+    form {
+        max-width: 300px; /* Ajusta a largura do formulário para telas menores */
+    }
+}
