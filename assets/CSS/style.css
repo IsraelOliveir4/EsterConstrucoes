@@ -172,3 +172,33 @@ footer {
     width: 100%;
     font-size: 0.9rem;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    nav ul li:last-child {
+        margin-right: 0;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 40px 10px; /* Reduz o espaçamento nas seções */
+    }
+
+    form {
+        max-width: 400px; /* Ajusta a largura do formulário */
+    }
+}
