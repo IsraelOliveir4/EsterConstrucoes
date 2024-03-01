@@ -118,6 +118,10 @@ section .test {
     display: inline-block;
 }
 
+section .test img{
+    width: 560px;
+}
+
 /* Estilos para a lista de serviços */
 ul.services {
     list-style: none;
@@ -206,6 +210,10 @@ footer {
         padding: 40px 10px; /* Reduz o espaçamento nas seções */
     }
 
+    section .test img{
+        width: 460px;
+    }
+
     form {
         max-width: 400px; /* Ajusta a largura do formulário */
     }
@@ -220,12 +228,22 @@ footer {
         padding: 10px;
     }
 
+    header h1 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
     nav ul li a {
         display: none;
     }
 
     .section {
         padding: 30px 10px; /* Reduz ainda mais o espaçamento nas seções */
+    }
+
+    section .test img{
+        width: 360px;
     }
 
     form {
