@@ -157,7 +157,8 @@ form textarea {
     height: 150px;
 }
 
-button {
+p a{
+    text-decoration: none;
     background-color: #F69E19; /* Alterado para laranja */
     border: none;
     color: #fff;
@@ -169,7 +170,7 @@ button {
     margin: 10px;
 }
 
-button:hover {
+p a:hover {
     background-color: #D88E15; /* Alterado para laranja mais escuro */
 }
 
