@@ -218,6 +218,23 @@ footer {
     form {
         max-width: 400px; /* Ajusta a largura do formulário */
     }
+
+    p a{
+        text-decoration: none;
+        background-color: #F69E19; /* Alterado para laranja */
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+        margin: 10px;
+    }
+    
+    p a:hover {
+        background-color: #D88E15; /* Alterado para laranja mais escuro */
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -249,5 +266,22 @@ footer {
 
     form {
         max-width: 300px; /* Ajusta a largura do formulário para telas menores */
+    }
+
+    p a{
+        text-decoration: none;
+        background-color: #F69E19; /* Alterado para laranja */
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+        margin: 10px;
+    }
+    
+    p a:hover {
+        background-color: #D88E15; /* Alterado para laranja mais escuro */
     }
 }
