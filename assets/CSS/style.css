@@ -237,6 +237,61 @@ footer {
     }
 }
 
+@media screen and (max-width: 668px) {
+    header {
+        padding: 15px;
+    }
+
+    header h1{
+        margin: 0px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    nav ul li:last-child {
+        margin-right: 0;
+    }
+
+    .section {
+        padding: 40px 10px; /* Reduz o espaçamento nas seções */
+    }
+
+    section .test img{
+        width: 460px;
+    }
+
+    form {
+        max-width: 400px; /* Ajusta a largura do formulário */
+    }
+
+    nav ul li a {
+        display: none;
+    }
+
+    p a{
+        text-decoration: none;
+        background-color: #F69E19; /* Alterado para laranja */
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+        margin: 10px;
+    }
+    
+    p a:hover {
+        background-color: #D88E15; /* Alterado para laranja mais escuro */
+    }
+}
+
 @media screen and (max-width: 480px) {
     .logo {
         width: 80px;
