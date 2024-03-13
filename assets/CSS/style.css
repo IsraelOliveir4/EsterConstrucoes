@@ -99,7 +99,7 @@ section {
     text-align: center;
 }
 
-section h2 {
+section h4 {
     font-size: 2.5rem;
     margin-bottom: 30px;
     color: #F69E19; /* Alterado para laranja */
@@ -270,6 +270,12 @@ footer {
         max-width: 400px; /* Ajusta a largura do formulário */
     }
 
+    section h4 {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+        color: #F69E19; /* Alterado para laranja */
+    }
+
     nav ul li a {
         display: none;
     }
@@ -317,6 +323,12 @@ footer {
 
     section .test img{
         width: 360px;
+    }
+
+    section h4 {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+        color: #F69E19; /* Alterado para laranja */
     }
 
     form {
